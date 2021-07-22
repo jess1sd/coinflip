@@ -29,8 +29,8 @@ for i in range(num_flips):
 print ( "number of heads=" + str(num_heads))
 print ( "number of tails=" + str(num_tails))
 # Report 2: cleaner
-print ( "number of heads=%d", num_heads)
-print ( "number of tails=%d", num_tails)
+print ( "number of heads=%3d" %( num_heads))
+print ( "number of tails=%3d" %( num_tails))
 # Report 3: cleanest
-print ("number of %s = %d", constant.HEAD, num_heads); 
-print ("number of %s = %d", constant.TAIL, num_tails);  
+print ("number of %s = %i" % (constant.HEAD, num_heads)); 
+print ("number of %s = %i" % (constant.TAIL, num_tails));  
